@@ -42,7 +42,8 @@ Endpoint to classify news articles. Send a JSON payload with the news content.
 
 
 
-```{
+```
+{
   "news_text": "Here is the news article content..."
 }
 ```
@@ -50,8 +51,9 @@ Endpoint to classify news articles. Send a JSON payload with the news content.
 Example response:
 
 
-```{
-  "prediction": "real"
+```
+{
+  "prediction": "REAL! We predicted that the probability this News article is Real is 76 percent"
 }
 ```
 **Contributing**
