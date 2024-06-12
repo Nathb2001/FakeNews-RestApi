@@ -13,22 +13,23 @@ This project originated as an MSc project for building an application to detect 
    ```bash
    git clone https://github.com/Nathb2001/FakeNews-RestApi.git
    cd your-repo
-Download the dataset:
+2. **Download the dataset:**
 
 Download the dataset from Google Drive and place it in the project folder.
 
 Install the required dependencies:
 
-bash
-
+```bash
 pip install -r requirements.txt
-Usage
+```
+3.**Usage**
 Start the FastAPI server:
 
-bash
+```bash
 
 uvicorn main:app --reload
-Access the Swagger UI:
+```
+**Access the Swagger UI:**
 
 Open your web browser and go to http://localhost:8000/docs to interactively test the API endpoints.
 
