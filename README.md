@@ -33,27 +33,29 @@ uvicorn main:app --reload
 
 Open your web browser and go to http://localhost:8000/docs to interactively test the API endpoints.
 
-API Endpoints
+**API Endpoints**
 POST /classify/
 
 Endpoint to classify news articles. Send a JSON payload with the news content.
 
-Example request body:
+**Example request body:**
 
-json
 
-{
+
+```{
   "news_text": "Here is the news article content..."
 }
+```
+
 Example response:
 
-json
 
-{
+```{
   "prediction": "real"
 }
-Contributing
+```
+**Contributing**
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request.
 
-License
+**License**
 This project is licensed under the MIT License - see the LICENSE file for details.
