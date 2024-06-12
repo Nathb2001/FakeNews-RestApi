@@ -34,6 +34,7 @@ uvicorn main:app --reload
 Open your web browser and go to http://localhost:8000/docs to interactively test the API endpoints.
 
 **API Endpoints**
+
 POST /classify/
 
 Endpoint to classify news articles. Send a JSON payload with the news content.
