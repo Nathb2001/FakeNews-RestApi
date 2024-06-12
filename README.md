@@ -20,13 +20,13 @@ Download the dataset from Google Drive and place it in the project folder.
 Install the required dependencies:
 
 bash
-Copy code
+
 pip install -r requirements.txt
 Usage
 Start the FastAPI server:
 
 bash
-Copy code
+
 uvicorn main:app --reload
 Access the Swagger UI:
 
@@ -40,14 +40,14 @@ Endpoint to classify news articles. Send a JSON payload with the news content.
 Example request body:
 
 json
-Copy code
+
 {
   "news_text": "Here is the news article content..."
 }
 Example response:
 
 json
-Copy code
+
 {
   "prediction": "real"
 }
