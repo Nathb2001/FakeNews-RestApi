@@ -1,15 +1,20 @@
+# Fake News Detection API
+
 This is a RESTful API built with FastAPI that classifies news articles as real or fake using a Logistic Regression model. The model was trained on a dataset containing 76,353 examples of real and fake news articles.
 
-Overview
+## Overview
+
 This project originated as an MSc project for building an application to detect fake news. Initially designed with FastAPI, it has since been deprecated in favor of integrating the functionality into the Streamlit framework.
 
-Installation
-Clone the repository:
+## Installation
 
-bash
-Copy code
-git clone https://github.com/Nathb2001/FakeNews-RestApi.git
-cd your-repo
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Nathb2001/FakeNews-RestApi.git
+   cd your-repo
+Download the dataset:
+
 Download the dataset from Google Drive and place it in the project folder.
 
 Install the required dependencies:
@@ -23,10 +28,14 @@ Start the FastAPI server:
 bash
 Copy code
 uvicorn main:app --reload
-Open your web browser and go to http://localhost:8000/docs to access the Swagger UI. Here, you can test the API endpoints interactively.
+Access the Swagger UI:
+
+Open your web browser and go to http://localhost:8000/docs to interactively test the API endpoints.
 
 API Endpoints
-POST /classify/: Endpoint to classify news articles. Send a JSON payload with the news content.
+POST /classify/
+
+Endpoint to classify news articles. Send a JSON payload with the news content.
 
 Example request body:
 
@@ -47,5 +56,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-
