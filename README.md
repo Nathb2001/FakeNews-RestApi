@@ -49,7 +49,7 @@ Endpoint to classify news articles. Send a JSON payload with the news content.
 }
 ```
 
-Example response:
+**Example response:**
 
 
 ```
