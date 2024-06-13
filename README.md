@@ -22,8 +22,8 @@ Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-3.**Usage**
-Start the FastAPI server:
+3.**Start the FastAPI server:**
+
 
 ```bash
 
